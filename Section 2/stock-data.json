@@ -1,0 +1,55 @@
+{
+  "participants": [
+    { "name": "Vinod" },
+    { "name": "Rudolf" },
+    { "name": "Hikaru" }
+  ],
+  "stocks": [
+    {
+      "name": "Hello Inc",
+      "symbol": "HELO"
+    },
+    {
+      "name": "Coffee Is Awesome",
+      "symbol": "COFFEE"
+    }
+  ],
+  "orders": [
+    {
+      "direction": "buy",
+      "stock_symbol": "HELO",
+      "amount": 1,
+      "price": "1.0",
+      "posted_by": "Rudolf",
+      "fulfilled": true,
+      "fulfilled_by": "Vinod"
+    },
+    {
+      "direction": "buy",
+      "stock_symbol": "COFFEE",
+      "amount": 5,
+      "price": "2.2",
+      "posted_by": "Vinod",
+      "fulfilled": false,
+      "fulfilled_by": null
+    },
+    {
+      "direction": "sell",
+      "stock_symbol": "COFFEE",
+      "amount": 3,
+      "price": "2.0",
+      "posted_by": "Vinod",
+      "fulfilled": false,
+      "fulfilled_by": null
+    },
+    {
+      "direction": "buy",
+      "stock_symbol": "COFFEE",
+      "amount": 3,
+      "price": "2.0",
+      "posted_by": "Hikaru",
+      "fulfilled": false,
+      "fulfilled_by": null
+    }
+  ]
+}
